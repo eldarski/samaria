@@ -1,6 +1,4 @@
-# Samaria
-
-Japanese text and image contrastive learning library using CLIP.
+# Text and image contrastive learning library
 
 ## Installation
 
