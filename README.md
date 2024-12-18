@@ -1,4 +1,4 @@
-# Text and image contrastive learning library
+# Text and image contrastive learning Python library implemented in C++
 
 ## Installation
 
@@ -37,11 +37,3 @@ print(f"Similarity: {similarity:.3f}")
 - OpenCV
 - pybind11
 - CMake
-
-## License
-
-[Your chosen license]
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first.
