@@ -32,7 +32,7 @@ print(f"Similarity: {similarity:.3f}")
 
 ## Dependencies
 
-- Python 3.8+
+- Python 3.9
 - PyTorch
 - OpenCV
 - pybind11
