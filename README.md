@@ -30,6 +30,12 @@ similarity = cls.compute_similarity(text, image_path)
 print(f"Similarity: {similarity:.3f}")
 ```
 
+You can also run
+
+```
+python examples/simple_demo.py
+```
+
 ## Dependencies
 
 - Python 3.9
