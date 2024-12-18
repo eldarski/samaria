@@ -1,0 +1,22 @@
+name: samaria_contrast
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pytorch::torchaudio
+  - numpy>=1.19.0
+  - sentencepiece>=0.1.96
+  - opencv>=4.5.0
+  - pytest>=6.0.0
+  - black>=22.3.0
+  - isort>=5.10.1
+  - flake8>=4.0.1
+  - mypy>=0.950
+  - pytest-cov>=3.0.0
+  - pip
+  - pip:
+      - -e .

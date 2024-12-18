@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  samaria:
+    build: 
+      context: .
+      dockerfile: Dockerfile.gpu  # Create this from the original CUDA-based Dockerfile
+    image: samaria_contrast_gpu
+    container_name: samaria_contrast_gpu
+    volumes:
+      - .:/app
+      - ~/.cache:/root/.cache
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    tty: true
+    stdin_open: true 

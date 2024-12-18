@@ -1,0 +1,5 @@
+"""Version information."""
+
+__version__ = "@PROJECT_VERSION@"
+__git_revision__ = "@GIT_REVISION@"
+__release_date__ = "@RELEASE_DATE@" 

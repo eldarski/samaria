@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  samaria:
+    build: .
+    volumes:
+      - ./data:/app/data
+    environment:
+      - CUDA_VISIBLE_DEVICES=0  # Set to -1 for CPU only
