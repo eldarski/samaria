@@ -5,7 +5,7 @@
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/samaria.git
+git clone https://github.com/eldarski/samaria.git
 cd samaria
 ```
 
