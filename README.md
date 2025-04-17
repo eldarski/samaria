@@ -47,3 +47,8 @@ python examples/simple_demo.py
 ## Model used
 
 https://huggingface.co/rinna/japanese-clip-vit-b-16
+
+
+
+-----------------------------
+https://exim.dev
